@@ -13,6 +13,7 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageReleaseNotes>Support Okapi report using MSTest TestContext
+Example; https://github.com/tamnguyenbbt/Okapi/blob/master/OkapiSampleTests/TestCases/WithMSTest.cs
 </PackageReleaseNotes>
     <AutoGenerateBindingRedirects>True</AutoGenerateBindingRedirects>
     <NeutralLanguage>en</NeutralLanguage>
