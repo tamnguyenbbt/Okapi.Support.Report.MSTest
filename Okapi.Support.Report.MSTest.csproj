@@ -12,16 +12,13 @@
     <PackageProjectUrl>https://github.com/tamnguyenbbt/Okapi.Support.Report.MSTest</PackageProjectUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-    <PackageReleaseNotes>
-      Support Okapi report using MSTest TestContext
-    </PackageReleaseNotes>
+    <PackageReleaseNotes>Support Okapi report using MSTest TestContext
+</PackageReleaseNotes>
     <AutoGenerateBindingRedirects>True</AutoGenerateBindingRedirects>
     <NeutralLanguage>en</NeutralLanguage>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.TestPlatform" Version="14.0.0" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\okapi.common\Okapi.Common\Okapi.Common.csproj" />
+    <PackageReference Include="Okapi.Common" Version="1.0.6" />
   </ItemGroup>
 </Project>
