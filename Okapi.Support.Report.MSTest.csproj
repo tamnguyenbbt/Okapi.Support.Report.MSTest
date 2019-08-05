@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFrameworks>net45;net46</TargetFrameworks>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Authors>Tam Nguyen</Authors>
     <Company>Tam Nguyen</Company>
     <Description>Support Okapi report using MSTest TestContext</Description>
@@ -12,14 +12,13 @@
     <PackageProjectUrl>https://github.com/tamnguyenbbt/Okapi.Support.Report.MSTest</PackageProjectUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-    <PackageReleaseNotes>Support Okapi report using MSTest TestContext
-Example: https://github.com/tamnguyenbbt/Okapi/blob/master/OkapiSampleTests/TestCases/WithMSTest.cs
+    <PackageReleaseNotes>Update  the dependency - Okapi.Common - to 1.0.7 (https://www.nuget.org/packages/Okapi.Common/1.0.7)
 </PackageReleaseNotes>
     <AutoGenerateBindingRedirects>True</AutoGenerateBindingRedirects>
     <NeutralLanguage>en</NeutralLanguage>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.TestPlatform" Version="14.0.0" />
-    <PackageReference Include="Okapi.Common" Version="1.0.6" />
+    <PackageReference Include="Okapi.Common" Version="1.0.7" />
   </ItemGroup>
 </Project>
